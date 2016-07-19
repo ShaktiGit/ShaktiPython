@@ -19,12 +19,6 @@ class App:
         self.hello_b = Button(master,text="Quit",command=sys.exit)
         self.hello_b.bind("<Enter>",jump)
         self.hello_b.pack()
-
-
-
-
 root = Tk()
-
 app = App(root)
-
 root.mainloop()
